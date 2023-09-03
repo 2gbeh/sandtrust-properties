@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+.admin main {
+  margin-bottom: 40px;
+}
+
+.admin main .section {
+  margin: 0;
+  padding: 20px 15px 0;
+  text-transform: uppercase;
+  text-shadow: 0 1px #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.admin main .section a {
+  color: #069;
+  text-decoration: none;
+  font-size: 12px;
+  float: right;
+}
+
+.admin main .breadcrumb {
+  background-color: #fff;
+  box-shadow: 0 2px 4px #ddd;
+  margin: 40px 0 0;
+  padding: 10px 25px 15px;
+}
+.admin main .breadcrumb table tr {
+  vertical-align: bottom;
+}
+.admin main .breadcrumb table tr th {
+  text-align: left;
+  font-weight: normal;
+}
+.admin main .breadcrumb table tr td {
+  text-align: right;
+}
+.admin main .breadcrumb h1 {
+  margin: 5px 0;
+  font-size: 28px;
+  font-weight: normal;
+}
+.admin main .breadcrumb a {
+  text-decoration: none;
+}
+.admin main .breadcrumb p {
+  color: #555;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.admin main .breadcrumb input {
+  padding: 5px 10px;
+}
+
+.admin main .widget {
+  background-color: #fff;
+  box-shadow: 0 2px 4px #ddd;
+}
+.admin main .widget table {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.admin main .widget table tr td {
+  border-bottom: solid thin #ccc;
+  padding: 10px 15px;
+  line-height: 20px;
+}
+.admin main .widget table tr:hover td {
+  border: solid thin #555;
+}
+.admin main .widget b {
+  text-transform: capitalize;
+}
+.admin main .widget p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.admin main .widget meter {
+  /* margin: 10px 0; */
+  width: 300px;
+  display: block;
+}
+.admin main .widget figure {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  border: solid thin #ccc;
+  border-radius: 100%;
+  margin: 5px 0;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.admin main .widget button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin: 10px 0 5px;  
+  display: block;
+}
+.admin main .widget button:hover {
+  background-color: #333;
+}
+.admin main .widget button a {
+  color: inherit;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.admin main .content {
+  box-shadow: 0 2px 4px #ddd;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1280px) {
+  .admin main .breadcrumb {
+    margin: 10px 0 0;
+    padding: 10px 15px 15px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .admin main .breadcrumb h1 {
+    font-size: 24px;
+  }
+  .admin main .widget meter {
+    /* margin: 5px 0; */
+    width: 95%;
+  }
+}

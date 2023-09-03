@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+.admin main .content table {
+  background-color: #fff;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.admin main .content caption,
+.admin main .content caption form {
+  padding: 0;
+  margin: 0;
+}
+
+.admin main .content caption form {
+  width: 100%;
+}
+.admin main .content caption form input {
+  background-color: #fff;
+  border: solid thin #ccc;
+  padding: 12px 15px;
+  width: 100%;
+  display: block;
+}
+.admin main .content caption form input:focus {
+  background-color: #f7f7f7;
+  border-color: #555;
+}
+
+.admin main .content table tr {
+  vertical-align: top;
+}
+.admin main .content table tr th:first-child,
+.admin main .content table tr th:last-child,
+.admin main .content table tr td:first-child,
+.admin main .content table tr td:last-child {
+  width: 1px;
+  white-space: nowrap;
+}
+.admin main .content table tr th {
+  border-bottom: solid #ddd;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.admin main .content table tr td {
+  border-bottom: solid thin #ccc;
+  padding: 10px;
+  line-height: 20px;
+}
+.admin main .content table tr:hover td {
+  border: solid thin #555;
+}
+
+.admin main .content var {
+  background-color: #d4edda;
+  color: #555;
+  border-radius: 100px;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.admin main .content .badge {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  border: solid thin #ccc;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.admin main .content .btn a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.admin main .content a.btn-pri {
+  color: #090;
+}
+.admin main .content a.btn-sec {
+  color: #e11;
+}
+.admin main .content a.btn-alt {
+  color: #069;
+}
+
+.admin main .pager {
+  margin: 20px 10px 0;
+  text-align: right;
+}
+.admin main .pager table {
+  width: auto;
+  white-space: nowrap;
+  display: inline-block;
+}
+.admin main .pager table caption {
+  margin-top: 15px;
+  font-size: 12px;
+  caption-side: bottom;
+}
+.admin main .pager input {
+  border: solid thin #ddd;
+  padding: 10px;
+  width: 60px;
+}
+.admin main .pager input[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  margin: 0 4px;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1280px) {
+  .admin main .wrapper {
+    padding-bottom: 15px;  
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+}

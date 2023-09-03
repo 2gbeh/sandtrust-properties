@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  padding: 8px 20px;
+  background-color: #222;
+}
+header table tr th {
+  text-align: left;
+  width: 1px;
+  white-space: nowrap;
+}
+header table tr th a {
+  color: #fff;
+  text-decoration: none;
+}
+header table tr th img {
+  width: 160px;
+  font-size: 38px;
+  font-style: italic;
+  line-height: 0.6;
+}
+header table tr th sup {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 0;
+}
+header table tr td {
+  text-align: right;
+  white-space: nowrap;
+}
+header table tr td form input {
+  background-color: transparent;
+  color: #eee;
+  border: solid thin #999;
+  padding: 10px 15px;
+  width: 200px;
+}
+header table tr td form input:focus {
+  border-color: #eee;
+  width: 210px;
+}
+header table tr td form button {
+  background-color: #555;
+  color: #fff;
+  border: solid thin #555;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+header table tr td form button:hover {
+  background-color: #777;
+  border-color: #777;
+}
+header table tr td a {
+  background-color: #fff;
+  color: #222;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+header table tr td a:hover {
+  background-color: #eee;
+}
+
+nav {
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px #ddd;
+}
+nav a {
+  color: #222;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #069;
+  font-weight: bold;
+}
+nav b {
+  margin: 3px 0 0 2px;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+nav u {
+  text-decoration: none;
+  font-size: 42px;
+  line-height: 0.8;
+  display: inline-block;
+  cursor: pointer;
+}
+nav img {
+  vertical-align: bottom;
+}
+nav table {
+  margin-top: 2px;
+}
+nav table tr th {
+  text-align: left;
+  font-weight: normal;
+}
+nav table tr td {
+  text-align: right;
+}
+
+nav .desktop tr th ul li {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+nav .desktop tr td ul li {
+  margin-left: 10px;
+}
+nav .mobile {
+  display: none;
+}
+
+aside {
+  background-color: #fff;
+  padding: 100px 20px 50px;
+  text-align: center;
+}
+aside h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+aside h3 {
+  color: #555;
+  margin: 10px 0;
+  width: 455px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  display: inline-block;
+}
+aside form {
+  margin: 30px 0;
+}
+aside form input {
+  border: solid thin #222;
+  border-radius: 3px;
+  padding: 11px 15px;
+  width: 350px;
+}
+aside form input:focus {
+  width: 360px;
+}
+aside form button {
+  background-color: #222;
+  color: #fff;
+  border-color: #222;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+aside form button:hover {
+  background-color: #eee;
+  color: #222;
+  border-color: #eee;
+}
+
+main {
+  min-height: 640px;
+  /* display: none; */
+}
+
+footer {
+  background-color: #fff;
+  padding: 0 20px 20px;
+}
+footer .wrapper {
+  border-top: solid thin #ddd;
+  padding-top: 20px;
+}
+footer table {
+  border-collapse: collapse;
+  width: 100%;
+}
+footer table tr th {
+  text-align: left;
+  font-weight: normal;
+}
+footer table tr th img {
+  margin: 5px;
+  width: 25px;
+}
+footer table tr td {
+  text-align: right;
+}
+footer table tr td ul li {
+  margin-left: 10px;
+  display: inline-block;
+}
+footer table tr td img {
+  border: 3px solid #ddd;
+  border-radius: 100%;
+  width: 25px;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1280px) {
+  header {
+    padding: 8px 15px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  header {
+    padding: 8px 10px;
+  }
+  header table tr td form {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 10px;
+  }
+  nav .desktop {
+    display: none;
+  }
+  nav .mobile {
+    display: table;
+  }
+
+  aside {
+    background-color: #fff;
+    padding: 100px 20px 20px;
+    text-align: center;
+  }
+  aside h2 {
+    font-size: 20px;
+  }
+  aside h3 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  aside form {
+    margin: 10px 0;
+  }
+  aside form input {
+    width: 170px;
+  }
+  aside form input:focus {
+    width: 180px;
+  }
+  aside form button {
+    padding: 10px 12px;
+  }
+
+  main {
+    min-height: auto;
+  }
+
+  footer {
+    padding: 0 15px 8px;
+  }
+  footer .wrapper {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.login main {
+  margin-top: 150px;
+  text-align: center;
+  text-shadow: 0 1px #fff;
+  min-height: auto;
+}
+
+.login main h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+.login main h1 img {
+  width: 55px;
+}
+.login main h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.login main form fieldset {
+  border: none;
+  width: 360px;
+  display: inline-block;
+}
+
+.login main form input {
+  border: solid thin #ccc;
+  border-bottom-color: #fff;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+.login main form input[name="username"] {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.login main form input[name="password"] {
+  border-bottom-color: #ccc;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.login main form input:focus {
+  background-color: #f7f7f7;
+}
+
+.login main form button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+.login main form button:hover {
+  background-color: #333;
+}
+
+.login main form .checkbox-group input {
+  width: auto;
+  display: inline-block;
+}
+.login main form .checkbox-group label {
+  margin-left: 25px;
+  color: #444;
+  vertical-align: top;
+}
+
+.login main address {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 640px) {
+  .login main {
+    margin-top: 50px;
+  }
+
+  .login main form fieldset {
+    padding: 0;
+    width: 90%;
+  }
+
+  .login main address {
+    position: static;
+    margin-top: 80px;
+    width: auto;
+  }
+}

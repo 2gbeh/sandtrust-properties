@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+.admin main .content form {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px 30px;
+  font-size: 14px;
+}
+
+.admin main .content form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 683px;
+}
+
+.admin main .content form label {
+  margin-left: 5px;
+  display: inline-block;
+  cursor: default;
+}
+.admin main .content form label b {
+  color: #e11;
+  font-weight: bold;
+}
+.admin main .content form label u {
+  margin-left: 5px;
+  color: #999;
+  text-decoration: none;  
+  float: right;
+}
+
+.admin main .content form .field-group input,
+.admin main .content form .field-group select,
+.admin main .content form .field-group textarea {
+  background-color: #fff;
+  border: solid thin #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 12px 15px;
+  width: 100%;
+  font-size: 14px;
+  display: block;
+}
+.admin main .content form .field-group input:focus,
+.admin main .content form .field-group select:focus,
+.admin main .content form .field-group textarea:focus {
+  background-color: #f7f7f7;
+  border-color: #555;
+}
+.admin main .content form .field-group input[type="file"] {
+  padding: 10px 15px;
+}
+
+.admin main .content form .radio-group {
+  border: solid thin #ccc;
+  border-radius: 4px;
+  margin: 12px 0 0 0;
+  padding: 12px;
+}
+.admin main .content form .radio-group input {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: auto;
+  width: auto;
+  display: inline-block;
+}
+.admin main .content form .radio-group label {
+  margin-left: 25px;
+}
+
+.admin main .content form .checkbox-group label {
+  margin-left: 25px;
+  line-height: 22px;
+}
+
+.admin main .content form .button-group {
+  margin-top: 10px;
+  padding-top: 20px;
+  text-align: right;
+  border-top: solid thin #ccc;
+}
+.admin main .content form button {
+  border: solid thin transparent;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 12px 24px;
+  display: inline-block;
+}
+.admin main .content form button:first-child {
+  background-color: #fff;
+  color: #222;
+  border-color: #999;
+}
+.admin main .content form button:first-child:hover {
+  background-color: #eee;
+  border-color: #222;
+}
+.admin main .content form button:last-child {
+  background-color: #222;
+  color: #fff;
+}
+.admin main .content form button:last-child:hover {
+  background-color: #333;
+}
+
+.admin main .content form .image-group {
+  text-align: center;
+}
+.admin main .content form .image-group .thumbnail {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  border: solid thin #ccc;
+  border-radius: 100%;    
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.admin main .content form .hr {
+  border: dashed thin #ccc;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 640px) {
+  .admin main .content form {
+    padding: 15px;
+  } 
+  .admin main .content form fieldset {
+    width: 100%;
+  }   
+}
